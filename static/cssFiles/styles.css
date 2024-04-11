@@ -1,0 +1,57 @@
+
+body{
+    background: url("/static/images/cover.jpg")  ;
+    color: white;
+    background-size: cover;
+    
+    
+    
+    
+}
+
+   #appname{
+    display: inline;
+    font-size:50px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: left;
+      font-style: italic;
+      color:azure;
+      
+      
+   }
+   img{
+    width: 80px;
+    height: 80px;
+    
+   }
+   .form-text{
+    color: rgb(7, 174, 174);
+   }
+   .form-check-label{
+    color:  rgb(3, 225, 225);
+   }
+   .form-label{
+    color: rgb(3, 225, 225);
+   }
+.mb-3{
+    width: 300px;
+
+}
+ul li{
+    padding: 20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+   
+}
+.a{
+  
+
+float:right;
+  color:azure;
+  font-size:larger;
+}
+.apu{
+  color:azure;
+}

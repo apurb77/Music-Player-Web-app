@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'cssFiles/songStyle.css' %}">
+    <title>Songs</title>
+</head>
+
+<body style=background:teal;>
+
+  
+    <div class="card-container">
+        <div class="card one" style="width: 18rem;">
+            <img src="https://engage4more.com/blog/wp-content/uploads/2022/10/singers_banner_1280x478-1-1024x382.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hindi</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+           
+            <div class="card-body">
+              <a href="{% url 'arijit:main' %}"></a>
+                <button type="button" class="btn btn-light">Listen Now</button>
+            </a>
+            </div>
+          </div>
+
+          <div class="card two" style="width: 18rem;">
+            <img src="https://img.jagrantv.com/webstories/ws1293/1653981450-cover.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Punjabi</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            
+            <div class="card-body">
+                <a href="">
+                <button type="button" class="btn btn-light">Listen Now</button>
+            </a>
+            </div>
+          </div>
+
+          <div class="card three" style="width: 18rem;">
+            <img src="https://www.billboard.com/wp-content/uploads/media/21-under-21-beat-2018-collage-billboard-1548.jpg" class="card-img-top pic" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">English</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+           
+            <div class="card-body">
+                <a href="">
+                <button type="button" class="btn btn-light">Listen Now</button>
+            </a>
+            </div>
+          </div>
+
+</body>
+</html>
